@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Lora';
+  font-size: 18px;
+  color: #292a2a;
+  overflow-x: hidden;
+}
+
+.wrapper-container{
+  max-width: 100vw;
+}
+
+.navigation-bar {
+  font-size: 0.8em;
+  display: flex;
+  background-color: white;
+  padding: 2em 3.5em;
+  justify-content: space-between;
+  letter-spacing: 0.2em;
+  z-index: 1;
+  width: 100%;
+}
+
+.navigation-bar li a{ padding: 2em 1.5em; }
+.navigation-bar li a:hover{ background-color: #6868ac33;  }
+
+.navigation-bar ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation-bar a{
+  text-decoration: none;
+  color: #292a2a;
+}
+
+.navigation-bar a:hover { color: #828383; }
+.navigation-bar span{ font-weight: bold; }
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+#top-btn{
+  position: fixed;
+  bottom: 1em;
+  right: 20px;
+  color: #6868AC;
+  background-color: #6868ac33; 
+  padding: 1em;  
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hidden { display: none;  }
+#top-btn:hover{ color: #adadd7;  }
+#menu-icon{ display: none; }
+.main-container{ height: 2000px;  }
+
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 75.59px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+nav li:hover > ul, .dropdown:hover{
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown li{
+  height: 75.59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+
+.wrapper-container{ max-width: 100vw; }
+.navigation-bar{
+  max-width: 100vw;
+  padding: 2em 2em;
+}
+  
+.sticky {
+  position: fixed;
+  top: 0;
+}
+#top-btn{ right: 1em;  }
+#menu-icon { display: block;  }
+#menu-icon:hover { color: #6868ac33; }
+
+.nav{
+  background-color: white;
+  margin: 0;
+  position: absolute;
+  right: -194.63px;
+  top: 57.187px;
+  display: flex;
+  flex-direction: column;
+  transition: all 800ms;
+  border: 1px solid rgba(211, 211, 211, 0.255);
+}
+.navigation-bar li{
+  background-color: white;
+  padding: 2em 2em;
+  border: 1px solid rgba(211, 211, 211, 0.255);
+  height: 75px;
+}
+
+.nav-active{ transform: translate(-194.63px, 0);  }
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 74px;
+  right: 188.28px;
+  visibility: hidden;
+  opacity: 0;
+  height: 75px;
+  border: 1px solid rgba(211, 211, 211, 0.255)
+  /* borders are only to show that li is sticky to main nav remove if needed*/
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+.navigation-bar{
+  padding: 2em 1em;
+  width: 100%;
+} 
+}
+
+
+
+
+

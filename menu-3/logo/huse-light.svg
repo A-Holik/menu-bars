@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.861261mm"
+   height="8.4665031mm"
+   viewBox="0 0 18.861261 8.4665031"
+   version="1.1"
+   id="svg310"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="huse-light.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview312"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.4359982"
+     inkscape:cx="23.470844"
+     inkscape:cy="-6.2233299"
+     inkscape:window-width="1379"
+     inkscape:window-height="1040"
+     inkscape:window-x="208"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g575" />
+  <defs
+     id="defs307" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-104.34748,-121.37966)">
+    <g
+       id="g575">
+      <path
+         d="m 105.66891,124.81907 a 0.26458333,0.26458333 0 0 0 -0.26459,-0.26458 h -0.0397 l 3.21468,-2.57175 3.21469,2.57175 h -0.0397 a 0.26458333,0.26458333 0 0 0 -0.26458,0.26458 v 0.52917 h 0.52917 v -0.26458 h 0.52916 a 0.26458333,0.26458333 0 0 0 0.16669,-0.47096 l -3.96875,-3.175 a 0.26458333,0.26458333 0 0 0 -0.33073,0 l -3.96875,3.175 a 0.26458333,0.26458333 0 0 0 0.16404,0.47096 h 0.52917 v 4.49791 a 0.26458333,0.26458333 0 0 0 0.26458,0.26459 h 3.43959 v -0.52917 h -3.175 z"
+         id="path4"
+         style="stroke-width:0.264583;fill:#d3d3d3;fill-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.29167px;font-family:'Climate Crisis';-inkscape-font-specification:'Climate Crisis';letter-spacing:0.529167px;fill:#d3d3d3;stroke-width:0.264583;fill-opacity:1"
+         x="109.19047"
+         y="129.16354"
+         id="text513"><tspan
+           sodipodi:role="line"
+           id="tspan511"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.264583;fill:#d3d3d3;fill-opacity:1"
+           x="109.19047"
+           y="129.16354">Huse</tspan></text>
+    </g>
+  </g>
+</svg>

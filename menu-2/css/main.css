@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  position: relative;
+}
+
+.sidebar-container {
+  width: 300px;
+  height: 100vh;
+  min-height: 550px;
+  background-color: #eedaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.115);
+  z-index: 1000;
+  position: absolute;
+  left: -300px;
+  padding: 60px 40px 60px 60px;
+}
+
+.menu-bar {
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: -1;
+  background-color: #eedaea;
+  height: 50px;
+  width: 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.115);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.menu-bar:hover{ color: #a16d99; }
+.nav-active { transform: translate(300px, 0); }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo-sample{
+  color: #112515;
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  border: 1px solid #112515;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav li a,
+.log-in a{
+  color: #112515;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  transition: ease-in-out 0.2s;
+  text-decoration: none;
+}
+
+.nav i,
+.log-in i {
+  color: #112515;
+  margin-right: 10px;
+}
+
+.nav li :hover,
+.log-in a:hover {
+  color: #a16d99;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+
+.nav li {
+  width: 100%;
+  list-style-type: none ;
+}
+
+.log-in hr{ border: 1px solid rgba(0, 0, 0, 0.115); }
+.wrapper-container{ height: 100%; }
+

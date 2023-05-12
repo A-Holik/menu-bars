@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  position: relative;
+  background: url("../pictures/pexels-luna-joie-16656249.jpg") no-repeat fixed center/cover;
+}
+
+.sidebar-container {
+  height: 709.083px;
+  background-color: rgba(255, 255, 255, 0.053);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(238, 238, 238);
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 1000;
+  position: absolute;
+  left: -271.6px;
+  padding: 10px 30px;
+  color: rgb(238, 238, 238);
+}
+.nav-active { transform: translate(291.6px, 0); }
+
+.menu-info{
+  font-family: 'Pacifico', 'sans-serif';
+  font-size: 2.5em;
+}
+.menu-bar {
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: -1;
+  height: 50px;
+  width: 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.115);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.menu-bar:hover{ color: #b8b8b8; }
+.nav-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo{
+  margin: 5px 0;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav li a,
+.log-in a{
+  color: rgb(238, 238, 238);
+  font-size: 1em;
+  transition: ease-in-out 0.2s;
+  text-decoration: none;
+}
+
+.nav i,
+.log-in i { margin-right: 10px; }
+
+.nav li :hover,
+.log-in a:hover, .logo i:hover {
+  color: #b8b8b8;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: ease-in-out 0.2s;
+}
+
+.nav li {
+  width: 100%;
+  list-style-type: none ;
+}
+hr{
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+width: 190px;
+margin: 10px 0;
+}
+.wrapper-container{ height: 100%; }
+
